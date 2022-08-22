@@ -1,0 +1,92 @@
+body{
+    background-image: url(images/w.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+form{
+    width: 450px;
+    height: 500px;
+    border: 1px solid rgb(53, 48, 48);
+    border-radius: 20px;
+    margin: 50px auto;
+}
+
+h1{
+    margin-left: 170px;
+    font-family: Arial;
+    color: rgb(233, 18, 168);
+}
+
+
+h3{
+    font-family: Arial;
+    font-size: 1em;
+    color: white;
+    margin-left: 23px;
+    margin-top: 15px;
+}
+
+input[type=text]{
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 35px;
+    border-bottom: 2px solid rgb(238, 8, 180);
+    background: none;
+    padding: 5px;
+    color: white;
+    padding-top: 20px;
+    margin-left: 90px;
+}
+
+
+input[type=email] , [type=password]{
+  
+  outline: none;
+  border: none;
+  width: 250px;
+  height: 35px;
+  border-bottom: 2px solid rgb(238, 8, 180);
+  background: none;
+  padding: 5px;
+  color: white;
+  padding-top: 25px;
+  margin-left: 90px;
+}
+
+
+
+input[type="checkbox"]{
+     margin: 15px 0 20px 80px;
+}
+
+
+
+
+input[type="checkbox"]::after{
+    content: "Save Your info";
+    color: white;
+    line-height: 1;
+    position: absolute;
+    left: 560px;
+}
+
+input[type="submit"]{
+    background-color: rgb(238, 8, 180);
+    width: 150px;
+    height: 50px;
+    margin-left: 150px;
+    border: 1px solid rgb(238, 8, 180);
+    border-radius: 7px;
+    color: white;
+    font-size: 30px;
+    outline: none;
+    font-family: Arial;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover{
+    background-color: white;
+    color: rgb(238, 8, 180);
+}
